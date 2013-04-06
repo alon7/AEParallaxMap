@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE6DDD9B1710CE9B00B57E43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6DDD9A1710CE9B00B57E43 /* UIKit.framework */; };
+		CE6DDD9D1710CE9B00B57E43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6DDD9C1710CE9B00B57E43 /* Foundation.framework */; };
+		CE6DDD9F1710CE9B00B57E43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6DDD9E1710CE9B00B57E43 /* CoreGraphics.framework */; };
+		CE6DDDA51710CE9B00B57E43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE6DDDA31710CE9B00B57E43 /* InfoPlist.strings */; };
+		CE6DDDA71710CE9B00B57E43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6DDDA61710CE9B00B57E43 /* main.m */; };
+		CE6DDDAB1710CE9B00B57E43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6DDDAA1710CE9B00B57E43 /* AppDelegate.m */; };
+		CE6DDDAD1710CE9B00B57E43 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6DDDAC1710CE9B00B57E43 /* Default.png */; };
+		CE6DDDAF1710CE9B00B57E43 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6DDDAE1710CE9B00B57E43 /* Default@2x.png */; };
+		CE6DDDB11710CE9B00B57E43 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6DDDB01710CE9B00B57E43 /* Default-568h@2x.png */; };
+		CE6DDDB41710CE9B00B57E43 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6DDDB21710CE9B00B57E43 /* MainStoryboard.storyboard */; };
+		CE6DDDB71710CE9B00B57E43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6DDDB61710CE9B00B57E43 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE6DDD961710CE9B00B57E43 /* AEParallaxMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AEParallaxMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6DDD9A1710CE9B00B57E43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE6DDD9C1710CE9B00B57E43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE6DDD9E1710CE9B00B57E43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE6DDDA21710CE9B00B57E43 /* AEParallaxMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AEParallaxMap-Info.plist"; sourceTree = "<group>"; };
+		CE6DDDA41710CE9B00B57E43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE6DDDA61710CE9B00B57E43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE6DDDA81710CE9B00B57E43 /* AEParallaxMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AEParallaxMap-Prefix.pch"; sourceTree = "<group>"; };
+		CE6DDDA91710CE9B00B57E43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE6DDDAA1710CE9B00B57E43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE6DDDAC1710CE9B00B57E43 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CE6DDDAE1710CE9B00B57E43 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CE6DDDB01710CE9B00B57E43 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE6DDDB31710CE9B00B57E43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CE6DDDB51710CE9B00B57E43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE6DDDB61710CE9B00B57E43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE6DDD931710CE9B00B57E43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6DDD9B1710CE9B00B57E43 /* UIKit.framework in Frameworks */,
+				CE6DDD9D1710CE9B00B57E43 /* Foundation.framework in Frameworks */,
+				CE6DDD9F1710CE9B00B57E43 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE6DDD8B1710CE9B00B57E43 = {
+			isa = PBXGroup;
+			children = (
+				CE6DDDA01710CE9B00B57E43 /* AEParallaxMap */,
+				CE6DDD991710CE9B00B57E43 /* Frameworks */,
+				CE6DDD971710CE9B00B57E43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE6DDD971710CE9B00B57E43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE6DDD961710CE9B00B57E43 /* AEParallaxMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE6DDD991710CE9B00B57E43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE6DDD9A1710CE9B00B57E43 /* UIKit.framework */,
+				CE6DDD9C1710CE9B00B57E43 /* Foundation.framework */,
+				CE6DDD9E1710CE9B00B57E43 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE6DDDA01710CE9B00B57E43 /* AEParallaxMap */ = {
+			isa = PBXGroup;
+			children = (
+				CE6DDDA91710CE9B00B57E43 /* AppDelegate.h */,
+				CE6DDDAA1710CE9B00B57E43 /* AppDelegate.m */,
+				CE6DDDB21710CE9B00B57E43 /* MainStoryboard.storyboard */,
+				CE6DDDB51710CE9B00B57E43 /* ViewController.h */,
+				CE6DDDB61710CE9B00B57E43 /* ViewController.m */,
+				CE6DDDA11710CE9B00B57E43 /* Supporting Files */,
+			);
+			path = AEParallaxMap;
+			sourceTree = "<group>";
+		};
+		CE6DDDA11710CE9B00B57E43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE6DDDA21710CE9B00B57E43 /* AEParallaxMap-Info.plist */,
+				CE6DDDA31710CE9B00B57E43 /* InfoPlist.strings */,
+				CE6DDDA61710CE9B00B57E43 /* main.m */,
+				CE6DDDA81710CE9B00B57E43 /* AEParallaxMap-Prefix.pch */,
+				CE6DDDAC1710CE9B00B57E43 /* Default.png */,
+				CE6DDDAE1710CE9B00B57E43 /* Default@2x.png */,
+				CE6DDDB01710CE9B00B57E43 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE6DDD951710CE9B00B57E43 /* AEParallaxMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6DDDBA1710CE9B00B57E43 /* Build configuration list for PBXNativeTarget "AEParallaxMap" */;
+			buildPhases = (
+				CE6DDD921710CE9B00B57E43 /* Sources */,
+				CE6DDD931710CE9B00B57E43 /* Frameworks */,
+				CE6DDD941710CE9B00B57E43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AEParallaxMap;
+			productName = AEParallaxMap;
+			productReference = CE6DDD961710CE9B00B57E43 /* AEParallaxMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE6DDD8D1710CE9B00B57E43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = alon7;
+			};
+			buildConfigurationList = CE6DDD901710CE9B00B57E43 /* Build configuration list for PBXProject "AEParallaxMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE6DDD8B1710CE9B00B57E43;
+			productRefGroup = CE6DDD971710CE9B00B57E43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE6DDD951710CE9B00B57E43 /* AEParallaxMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE6DDD941710CE9B00B57E43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6DDDA51710CE9B00B57E43 /* InfoPlist.strings in Resources */,
+				CE6DDDAD1710CE9B00B57E43 /* Default.png in Resources */,
+				CE6DDDAF1710CE9B00B57E43 /* Default@2x.png in Resources */,
+				CE6DDDB11710CE9B00B57E43 /* Default-568h@2x.png in Resources */,
+				CE6DDDB41710CE9B00B57E43 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE6DDD921710CE9B00B57E43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6DDDA71710CE9B00B57E43 /* main.m in Sources */,
+				CE6DDDAB1710CE9B00B57E43 /* AppDelegate.m in Sources */,
+				CE6DDDB71710CE9B00B57E43 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE6DDDA31710CE9B00B57E43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6DDDA41710CE9B00B57E43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE6DDDB21710CE9B00B57E43 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6DDDB31710CE9B00B57E43 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE6DDDB81710CE9B00B57E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE6DDDB91710CE9B00B57E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE6DDDBB1710CE9B00B57E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AEParallaxMap/AEParallaxMap-Prefix.pch";
+				INFOPLIST_FILE = "AEParallaxMap/AEParallaxMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE6DDDBC1710CE9B00B57E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AEParallaxMap/AEParallaxMap-Prefix.pch";
+				INFOPLIST_FILE = "AEParallaxMap/AEParallaxMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE6DDD901710CE9B00B57E43 /* Build configuration list for PBXProject "AEParallaxMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6DDDB81710CE9B00B57E43 /* Debug */,
+				CE6DDDB91710CE9B00B57E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6DDDBA1710CE9B00B57E43 /* Build configuration list for PBXNativeTarget "AEParallaxMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6DDDBB1710CE9B00B57E43 /* Debug */,
+				CE6DDDBC1710CE9B00B57E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE6DDD8D1710CE9B00B57E43 /* Project object */;
+}
