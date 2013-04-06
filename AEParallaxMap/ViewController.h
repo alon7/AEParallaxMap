@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIScrollViewDelegate,
+                                                UITableViewDataSource, UITableViewDelegate>
 
+@property (nonatomic, strong) MKMapView *_mapView;
+@property (nonatomic, strong) UITableView *_tableView;
+@property (nonatomic, strong) UIButton *_closeButton;
+@property (nonatomic, strong) UITapGestureRecognizer *_tapGesture;
 @end

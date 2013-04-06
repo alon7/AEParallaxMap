@@ -18,6 +18,9 @@
 		CE6DDDB11710CE9B00B57E43 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6DDDB01710CE9B00B57E43 /* Default-568h@2x.png */; };
 		CE6DDDB41710CE9B00B57E43 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6DDDB21710CE9B00B57E43 /* MainStoryboard.storyboard */; };
 		CE6DDDB71710CE9B00B57E43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6DDDB61710CE9B00B57E43 /* ViewController.m */; };
+		CE6DDDBE1710CFC000B57E43 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6DDDBD1710CFC000B57E43 /* MapKit.framework */; };
+		CE6DDDC31710DB0600B57E43 /* close-button.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6DDDC11710DB0600B57E43 /* close-button.png */; };
+		CE6DDDC41710DB0600B57E43 /* close-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6DDDC21710DB0600B57E43 /* close-button@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		CE6DDDB31710CE9B00B57E43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		CE6DDDB51710CE9B00B57E43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CE6DDDB61710CE9B00B57E43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE6DDDBD1710CFC000B57E43 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CE6DDDC11710DB0600B57E43 /* close-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close-button.png"; sourceTree = "<group>"; };
+		CE6DDDC21710DB0600B57E43 /* close-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close-button@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6DDDBE1710CFC000B57E43 /* MapKit.framework in Frameworks */,
 				CE6DDD9B1710CE9B00B57E43 /* UIKit.framework in Frameworks */,
 				CE6DDD9D1710CE9B00B57E43 /* Foundation.framework in Frameworks */,
 				CE6DDD9F1710CE9B00B57E43 /* CoreGraphics.framework in Frameworks */,
@@ -57,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				CE6DDDA01710CE9B00B57E43 /* AEParallaxMap */,
+				CE6DDDC01710DAF400B57E43 /* Resources */,
 				CE6DDD991710CE9B00B57E43 /* Frameworks */,
 				CE6DDD971710CE9B00B57E43 /* Products */,
 			);
@@ -73,6 +81,7 @@
 		CE6DDD991710CE9B00B57E43 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE6DDDBD1710CFC000B57E43 /* MapKit.framework */,
 				CE6DDD9A1710CE9B00B57E43 /* UIKit.framework */,
 				CE6DDD9C1710CE9B00B57E43 /* Foundation.framework */,
 				CE6DDD9E1710CE9B00B57E43 /* CoreGraphics.framework */,
@@ -105,6 +114,15 @@
 				CE6DDDB01710CE9B00B57E43 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE6DDDC01710DAF400B57E43 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE6DDDC11710DB0600B57E43 /* close-button.png */,
+				CE6DDDC21710DB0600B57E43 /* close-button@2x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +181,8 @@
 				CE6DDDAF1710CE9B00B57E43 /* Default@2x.png in Resources */,
 				CE6DDDB11710CE9B00B57E43 /* Default-568h@2x.png in Resources */,
 				CE6DDDB41710CE9B00B57E43 /* MainStoryboard.storyboard in Resources */,
+				CE6DDDC31710DB0600B57E43 /* close-button.png in Resources */,
+				CE6DDDC41710DB0600B57E43 /* close-button@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +277,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AEParallaxMap/AEParallaxMap-Prefix.pch";
 				INFOPLIST_FILE = "AEParallaxMap/AEParallaxMap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -268,6 +289,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AEParallaxMap/AEParallaxMap-Prefix.pch";
 				INFOPLIST_FILE = "AEParallaxMap/AEParallaxMap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
